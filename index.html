@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Samad.py | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+  <nav>
+    <h1>Samad.py Portfolio</h1>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="theme-toggle" onclick="toggleTheme()">
+      <i class="fas fa-moon"></i>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <h2>Hi, I'm Abdulsamad</h2>
+    <p>Aspiring Full-Stack Developer & Creative Designer</p>
+    <a href="#contact" class="btn">Let's Connect</a>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about">
+    <p>I’m a 19-year-old Nigerian student passionate about tech. I'm growing in front-end development (HTML, CSS, JS), and diving into React and Cybersecurity. I also love design and improving my skills daily.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill-card">HTML</div>
+      <div class="skill-card">CSS</div>
+      <div class="skill-card">JavaScript</div>
+      <div class="skill-card">ReactJS</div>
+      <div class="skill-card">Graphic Design</div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="experience-entry">
+      <h3>Print Production Operator - El-Whyid Concepts</h3>
+      <p>Handled large format printers and DTF machines, worked on design jobs with a strong eye for clean, high-quality output.</p>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://placehold.co/200x250" alt="Photo 1">
+      <img src="https://placehold.co/200x250" alt="Photo 2">
+      <img src="https://placehold.co/200x250" alt="Photo 3">
+      <img src="https://placehold.co/200x250" alt="Photo 4">
+      <img src="https://placehold.co/200x250" alt="Photo 5">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Let’s connect and build something awesome.</p>
+    <div class="socials">
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:abdulsamad@example.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Abdulsamad — Built with ❤️</p>
+  </footer>
+
+  <div id="popup" class="popup hidden">
+    <div class="popup-content">
+      <p>Welcome to Samad.py's portfolio! 🎉</p>
+      <button onclick="closePopup()">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
